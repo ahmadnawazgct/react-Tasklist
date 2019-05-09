@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class TodoInput extends Component{
-     
+    
     render(){
         const {item, handleChange, handleSubmit, editItem} = this.props;
         return(
